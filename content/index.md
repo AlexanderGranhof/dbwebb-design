@@ -1,25 +1,32 @@
 ---
 title: "Min fina titel"
 ---
-Min me-sida i kursen design
-=========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+# Min me-sida i kursen design
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+<!-- Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`. -->
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+[FIGURE src="image/me2.jpg?w=300" class="right" caption="Bild på mig där jag väntar på en beställning på Max vid 23:00 tiden"]
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+<!-- Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar. -->
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Mitt namn är Alexander Granhof. Född i karkskrona men har vuxit upp i mellanöstern Dubai, sedan har jag flyttat tillbaka till Sverige för mina studier. Jag har alltid varit intresserad av IT, datorer, spel och speciellt programmering. Innan jag började plugga på BTH så jobbade jag som IT Tekniker och kundtjänst på ett IT förtag i stockholm. Jag jobbade där i ett år där jag sparade ihop pengar så jag kan leva utan ett studentlån.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Jag började först programmera när jag gick i 6:an där mitt första program var en spam verktyg i visual basic. Sedan dess har jag blivit mer intresserad av webben. Jag gillar web mer än andra områden då webb fungerar på alla system och våra mobiler.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Utanför programmering så spelar jag lite, men 90% av min tid går åt till att programmera olika små projekt.
 
-Vi syns och hörs i forum och chatt!
+Mina starkaste områden inom programmering är problemlösning i Javascript och Serverbaserad programmering i NodeJS.
+Där använder jag för det mesta websockets och utvecklar lite små projekt med websockets.
 
-/Mikael
+/Alexander Granhof 08/11/2018
+
+<br>
+<div markdown="1" class="byline">
+[FIGURE src="image/me3.png?w=200" class="left"]
+<br>
+<br>
+Jag heter Alexander Granhof, flyttat från stockholm men har bott i Dubai i det mesta av mitt liv. Jag har programmerat sedan 6:an och använt mest NodeJS, HTML, CSS, SASS, TS och JS för lite små projekt. Men jag har även använt PHP och SQL.
+</div>
