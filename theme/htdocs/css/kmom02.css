@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design kmom01.
+ * LESS version of the stylesheet for design kmom02.
  *
  * This stylesheet is for the design course and kmom01. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
@@ -4562,7 +4562,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
   * Example on media queries
   */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 950px) {
   .rm-small {
     display: block;
   }
@@ -4570,10 +4570,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     display: none;
   }
   .region-header-col-1 {
-    padding: 10px;
+    padding: 10px !important;
   }
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 950px) {
   .rm-small {
     display: none;
   }
@@ -4615,11 +4615,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
 }
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
 }
 a {
   font-weight: 500;
@@ -4632,10 +4628,7 @@ body {
   background-color: #f5f5f5;
   font-family: "Roboto", sans-serif;
 }
-p {
-  margin: 10px 0;
-}
-.article {
+.article:not(.outer-wrap > div) {
   background-color: white;
   padding: 20px;
 }
@@ -4645,7 +4638,6 @@ p {
 .outer-wrap-footer .region-footer {
   background-color: white;
   border-top: 5px solid #bdbdbd;
-  padding: 20px 30px 5px 30px;
 }
 fieldset {
   margin: 20px 0;
@@ -4673,22 +4665,13 @@ h6 {
   vertical-align: bottom;
   margin-bottom: -10px;
 }
-.region-flash img {
-  width: 100%;
-  min-height: calc(75px + 3vw);
-  object-fit: cover;
-}
 .byline {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   max-width: 800px;
   padding: 20px 30px;
   background-color: #f5f5f5;
   box-shadow: 0 0 0 4px inset #eeeeee;
-}
-.byline * {
-  margin: 0 10px;
 }
 .byline *:first-child {
   margin-left: 0;
@@ -4698,12 +4681,6 @@ h6 {
 }
 .site-logo {
   display: none;
-}
-.footer-column-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 40px;
-  margin-bottom: 40px;
 }
 .block.site-footer {
   font-size: 12px;
@@ -4719,7 +4696,6 @@ ul li {
   padding: 20px 10px;
 }
 .outer-wrap > div {
-  padding: 20px;
   background-color: white;
 }
 .inner-wrap-flash,
@@ -4778,6 +4754,8 @@ ul li {
   .site-logo {
     display: none;
   }
+}
+@media only screen and (max-width: 530px) {
 }
 /**
  * Show off the regions used in the website, to ease styling.

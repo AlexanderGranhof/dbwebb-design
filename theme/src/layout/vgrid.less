@@ -1,0 +1,124 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+@linkBlue: #2e7d32;
+@linkHover: #202124;
+
+/**
+  * General layout
+  */
+
+.region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.column(5);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(14);
+}
+
+.region-main {
+    #desinax-vgrid.column(18);
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(6);
+}
+
+.row {
+    #desinax-vgrid.row();
+
+    // background-color: #0f0;
+    margin-bottom: 12px;
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../../../redovisa/htdocs/img/theme/grid950x24x30x10-nomargin.png";
+
+    // c: \Users\Alexander
+    //     Granhof\dbwebb-kurser\design\me\redovisa\htdocs\img\theme\grid950x24x30x10-nomargin.png
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+}
+
+.region-header {
+    box-shadow: 3px 5px 10px -3px rgba(0, 0, 0, 0.4);
+}
+
+.rm-navbar:not(.rm-swipe-right) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    ul:not(#rm-menu):not(.rm-show-submenu) {
+        li {
+            transition: 200ms ease;
+            color: @linkBlue;
+
+            &:hover {
+                color: @linkHover;
+            }
+
+            & > ul {
+                background-color: white;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.rm-swipe-right {
+    position: fixed;
+}
+
+.footer-column,
+.region-flash {
+    #desinax-vgrid.column(@columns / 3);
+}
+
+.site-footer,
+.region-footer {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+// @media screen and (max-width: 850px) {
+//     .region-main.has-side-bar-right {
+//         #desinax-vgrid.column(@columns);
+//     }
+
+//     .region-sidebar-right {
+//         #desinax-vgrid.column(@columns);
+//         #desinax-vgrid.push(0);
+//     }
+// }
