@@ -5246,3 +5246,9 @@ ul li {
 /**
  * My own settings, not currently in their own module.
  */
+.outer-wrap-flash {
+  display: none;
+}
+.inner-wrap-main {
+  border-radius: 5px;
+}

@@ -25,6 +25,7 @@
 
 .region-main {
     #desinax-vgrid.column(18);
+    #desinax-vgrid.push(2);
 }
 
 .region-sidebar-left,
@@ -33,6 +34,7 @@
 }
 
 .row {
+    max-width: 100%;
     #desinax-vgrid.row();
 
     // background-color: #0f0;
@@ -116,9 +118,16 @@
     }
 }
 
+.article {
+    #desinax-vgrid.push(2);
+}
+
+.region-sidebar-left {
+    // #desinax-vgrid.push(0.5) !important;
+}
+
 .region-main {
     #desinax-vgrid.column(@columns * 3 / 4);
-    #desinax-vgrid.push(3);
 
     &.has-sidebar {
         #desinax-vgrid.push(0);

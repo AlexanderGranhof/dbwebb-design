@@ -1,0 +1,88 @@
+@import "kmom03.less";
+
+@dark-100: #cfd8dc;
+@dark-200: #b0bec5;
+@dark-300: #90a4ae;
+@dark-400: #78909c;
+@dark-500: #607d8b;
+@dark-600: #546e7a;
+@dark-700: #455a64;
+@dark-800: #37474f;
+@dark-900: #263238;
+
+.outer-wrap-main {
+    color: white;
+}
+
+html,
+body {
+    background-color: @dark-900;
+}
+
+.row {
+    background-color: @dark-800;
+}
+
+.outer-wrap > div {
+    background-color: unset;
+}
+
+.region-flash {
+    margin-left: unset !important;
+}
+
+.inner-wrap-flash > .row {
+    background-color: transparent !important;
+}
+
+.region-footer {
+    background-color: @dark-800 !important;
+}
+
+.outer-wrap-footer {
+    &,
+    & * {
+        background-color: @dark-800;
+        color: white;
+        border: none;
+    }
+}
+
+.byline {
+    background-color: @dark-700;
+    box-shadow: 0 0 0 4px inset @dark-600;
+}
+
+.site-logo-text a {
+    color: white !important;
+}
+
+.my-navbar.rm-default li {
+    & a {
+        color: white !important;
+
+        &:hover {
+            background-color: @dark-600;
+        }
+    }
+}
+
+.my-navbar.rm-default li > ul {
+    background-color: @dark-700 !important;
+
+    & a {
+        color: white !important;
+    }
+}
+
+.rm-button {
+    color: white !important;
+}
+
+.next-previous {
+    background-color: @dark-700;
+}
+
+* a {
+    color: white !important;
+}

@@ -5059,6 +5059,7 @@ ul li {
   width: 73.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-left: 8.85416667%;
 }
 .region-sidebar-left,
 .region-sidebar-right {
@@ -5069,6 +5070,7 @@ ul li {
   margin-right: 0.52083333%;
 }
 .row {
+  max-width: 100%;
   display: block;
   width: 101.04166667%;
   margin-left: -0.52083333%;
@@ -5171,13 +5173,15 @@ ul li {
     margin-right: 0.52083333%;
   }
 }
+.article {
+  margin-left: 8.85416667%;
+}
 .region-main {
   display: inline;
   float: left;
   width: 73.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-left: 13.02083333%;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;

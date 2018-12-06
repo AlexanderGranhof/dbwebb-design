@@ -40,7 +40,7 @@ return [
         ],
         [
             "text" => "Rapport",
-            "url" => "rapport",
+            "url" => "rapport/fargschema",
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
     ],

@@ -5246,3 +5246,59 @@ ul li {
 /**
  * My own settings, not currently in their own module.
  */
+.outer-wrap-main {
+  color: white;
+}
+html,
+body {
+  background-color: #263238;
+}
+.row {
+  background-color: #37474f;
+}
+.outer-wrap > div {
+  background-color: unset;
+}
+.region-flash {
+  margin-left: unset !important;
+}
+.inner-wrap-flash > .row {
+  background-color: transparent !important;
+}
+.region-footer {
+  background-color: #37474f !important;
+}
+.outer-wrap-footer,
+.outer-wrap-footer * {
+  background-color: #37474f;
+  color: white;
+  border: none;
+}
+.byline {
+  background-color: #455a64;
+  box-shadow: 0 0 0 4px inset #546e7a;
+}
+.site-logo-text a {
+  color: white !important;
+}
+.my-navbar.rm-default li a {
+  color: white !important;
+}
+.my-navbar.rm-default li a:hover {
+  background-color: #546e7a;
+}
+.my-navbar.rm-default li > ul {
+  background-color: #455a64 !important;
+}
+.my-navbar.rm-default li > ul a {
+  color: white !important;
+}
+.rm-button {
+  color: white !important;
+}
+.next-previous {
+  background-color: #455a64;
+}
+* a {
+  color: white !important;
+}
