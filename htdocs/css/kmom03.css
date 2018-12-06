@@ -5190,6 +5190,7 @@ ul li {
   margin-right: 0.52083333%;
 }
 .region-main.has-sidebar-left.has-sidebar-right {
+  width: 23% !important;
   display: inline;
   float: left;
   width: 57.29166667%;
@@ -5200,15 +5201,7 @@ ul li {
 .region-sidebar-right {
   display: inline;
   float: left;
-  width: 32.29166667%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-.region-sidebar-right.has-sidebar-right,
-.region-sidebar-left.has-sidebar-left {
-  display: inline;
-  float: left;
-  width: 69.79166667%;
+  width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
