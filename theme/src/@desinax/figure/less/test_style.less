@@ -7,12 +7,7 @@
 
 // Enable style from the module and optinally add customized layout
 figure.figure {
-    #desinax-figure.figure();
-
-    // Alternative, send in the max width of the website when all images
-    // are in order in the text. The responsive images begin to act below
-    // this value.
-    //#desinax-figure.figure(1100px);
+    #desinax-figure.figure(@maxWidth);
 }
 
 figure.asciinema {
@@ -20,8 +15,19 @@ figure.asciinema {
     #desinax-figure.asciinema();
 }
 
-figure.codepen,
-figure.figure-codepen {
+figure.codepen {
     &:extend(figure.figure);
     #desinax-figure.codepen();
 }
+
+body {
+    max-width: @maxWidth;
+    margin: 8px auto;
+    background-color: #fff;
+}
+
+html {
+    background-color: #eee;
+}
+
+@maxWidth: 800px;

@@ -4562,18 +4562,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
   * Example on media queries
   */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 680px) {
   .rm-small {
     display: block;
   }
   .rm-desktop {
     display: none;
   }
-  .region-header-col-1 {
-    padding: 10px !important;
-  }
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 680px) {
   .rm-small {
     display: none;
   }
@@ -4609,7 +4606,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 body {
-  font: 16px / 1.5 serif;
+  font: 16px/1.5 serif;
 }
 h1,
 h2,
@@ -4652,7 +4649,7 @@ h2 {
   line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4662,7 +4659,7 @@ h3 {
   line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4672,7 +4669,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4681,7 +4678,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4690,7 +4687,7 @@ h6 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -4784,7 +4781,7 @@ ol {
 ul p,
 ol p {
   margin-top: 12px;
-  margin-bottom: 12px !important;
+  margin-bottom: 12px;
 }
 ul ul,
 ol ul,
@@ -5247,17 +5244,17 @@ ul li {
  * My own settings, not currently in their own module.
  */
 .outer-wrap-main {
-  color: white;
+  color: white !important;
 }
 html,
 body {
-  background-color: #263238;
+  background-color: #263238 !important;
 }
 .row {
-  background-color: #37474f;
+  background-color: #37474f !important;
 }
 .outer-wrap > div {
-  background-color: unset;
+  background-color: transparent !important;
 }
 .region-flash {
   margin-left: unset !important;
@@ -5270,13 +5267,13 @@ body {
 }
 .outer-wrap-footer,
 .outer-wrap-footer * {
-  background-color: #37474f;
-  color: white;
-  border: none;
+  background-color: #37474f !important;
+  color: white !important;
+  border: none !important;
 }
 .byline {
   background-color: #455a64;
-  box-shadow: 0 0 0 4px inset #546e7a;
+  box-shadow: 0 0 0 4px inset #546e7a !important;
 }
 .site-logo-text a {
   color: white !important;
@@ -5285,7 +5282,7 @@ body {
   color: white !important;
 }
 .my-navbar.rm-default li a:hover {
-  background-color: #546e7a;
+  background-color: #546e7a !important;
 }
 .my-navbar.rm-default li > ul {
   background-color: #455a64 !important;
@@ -5297,8 +5294,16 @@ body {
   color: white !important;
 }
 .next-previous {
-  background-color: #455a64;
+  background-color: #455a64 !important;
 }
 * a {
   color: white !important;
+}
+code {
+  background-color: #37474f !important;
+  padding: 1px 4px !important;
+  margin: 0 3px !important;
+  color: #d3d3d3 !important;
+  border: none !important;
+  box-shadow: 0 0 0 1px #263238 !important;
 }

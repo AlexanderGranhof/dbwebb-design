@@ -58,5 +58,10 @@ return [
             "url" => "rapport/fargschema",
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "A blog.",
+        ]
     ],
 ];
