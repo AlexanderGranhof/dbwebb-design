@@ -44,6 +44,18 @@ Sedan när det kommer till cache. Det är lite svårare än vad man tror. Det fi
 
 <iframe style="width: 100%; height: 430px"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSh-6mitp_54_we71NvQkO28BRqCYeZQsWThJxmzpYFd8Caf0eddWEEkgZtddLF7Zhbnj6b-Yl237Q2/pubhtml?widget=true&amp;headers=false"></iframe>
 
+###### YouTube
+
+<img src="img/youtube.PNG" style="width: 100%; display: block;">
+
+###### Pinterest
+
+<img src="img/pinterest.PNG" style="width: 100%; display: block;">
+
+###### Instagram
+
+<img src="img/instagram.PNG" style="width: 100%; display: block;">
+
 ###### JPG
 
 <img src="img/jpg_network.PNG" style="width: 100%; display: block;">
