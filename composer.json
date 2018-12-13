@@ -8,6 +8,7 @@
         "psr-4": {"Anax\\": "src/"}
     },
     "require": {
-        "anax/anax-design-me": "^1.0.8"
+        "anax/anax-design-me": "^1.0.8",
+        "mos/cimage": "^0.7.20"
     }
 }

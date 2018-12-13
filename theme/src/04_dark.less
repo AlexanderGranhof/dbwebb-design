@@ -11,20 +11,20 @@
 @dark-900: #263238;
 
 .outer-wrap-main {
-    color: white;
+    color: white !important;
 }
 
 html,
 body {
-    background-color: @dark-900;
+    background-color: @dark-900 !important;
 }
 
 .row {
-    background-color: @dark-800;
+    background-color: @dark-800 !important;
 }
 
 .outer-wrap > div {
-    background-color: unset;
+    background-color: transparent !important;
 }
 
 .region-flash {
@@ -42,15 +42,15 @@ body {
 .outer-wrap-footer {
     &,
     & * {
-        background-color: @dark-800;
-        color: white;
-        border: none;
+        background-color: @dark-800 !important;
+        color: white !important;
+        border: none !important;
     }
 }
 
 .byline {
     background-color: @dark-700;
-    box-shadow: 0 0 0 4px inset @dark-600;
+    box-shadow: 0 0 0 4px inset @dark-600 !important;
 }
 
 .site-logo-text a {
@@ -62,7 +62,7 @@ body {
         color: white !important;
 
         &:hover {
-            background-color: @dark-600;
+            background-color: @dark-600 !important;
         }
     }
 }
@@ -80,9 +80,18 @@ body {
 }
 
 .next-previous {
-    background-color: @dark-700;
+    background-color: @dark-700 !important;
 }
 
 * a {
     color: white !important;
+}
+
+code {
+    background-color: @dark-800 !important;
+    padding: 1px 4px !important;
+    margin: 0 3px !important;
+    color: rgb(211, 211, 211) !important;
+    border: none !important;
+    box-shadow: 0 0 0 1px @dark-900 !important;
 }

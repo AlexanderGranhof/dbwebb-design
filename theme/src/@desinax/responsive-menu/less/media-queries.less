@@ -2,25 +2,22 @@
  * Style for responsive menu
  */
 
-/**
+
+ /**
   * Example on media queries
   */
-@media screen and (max-width: 950px) {
-    .rm-small {
-        display: block;
-    }
+ @media screen and (max-width: 680px) {
+     .rm-small {
+         display: block;
+     }
+     
+     .rm-desktop {
+         display: none;
+     }
+ }
 
-    .rm-desktop {
-        display: none;
-    }
-
-    .region-header-col-1 {
-        padding: 10px !important;
-    }
-}
-
-@media screen and (min-width: 950px) {
-    .rm-small {
-        display: none;
-    }
-}
+ @media screen and (min-width: 680px) {
+     .rm-small {
+         display: none;
+     }
+ }

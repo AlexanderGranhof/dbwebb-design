@@ -22,7 +22,8 @@ return [
                 // "css/dbwebb-se.min.css",
                 // "css/kmom03.min.css",
                 // "css/04_minimalistic.min.css",
-                "css/04_dark.min.css",
+                // "css/04_dark.min.css",
+                "css/kmom05.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",

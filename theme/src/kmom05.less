@@ -1,0 +1,25 @@
+@import "kmom03.less";
+@import "04_dark.less";
+@import "@desinax/figure/less/figure.less";
+@import "@desinax/figure/less/style.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/asciinema.less";
+
+.blog-list-item {
+    #desinax-vgrid.push(2);
+}
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}

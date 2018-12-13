@@ -19,6 +19,11 @@ return [
         "title" => "Some small routes for testing.",
     ],
     [
+        "text" => "Blogg",
+        "url" => "blogg",
+        "title" => "A blog.",
+    ],
+    [
         "text" => "About",
         "url" => "about",
         "title" => "About this site.",
