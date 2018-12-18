@@ -10,9 +10,30 @@ published: "2018-12-13"
 # Vandring i norge
 
 <figure class="figure left .w50">
-    <img src="./cimage/img.php?src=person.jpg&width=700&height=600&crop-to-fit&aro" alt="katt">
+    <img src="./cimage/img.php?src=person.jpg&width=400&height=200&crop-to-fit&aro&convolve=edge-alt" alt="katt">
     <figcaption>
-        <p>En bild på en klasskompis är också intresserad av fotografi</p>
+        <p>En bild på en klasskompis är också intresserad av fotografi. Denna bilden använder sig av convolve edge-alt för att rita alla kanter</p>
+    </figcaption>
+</figure>
+
+<figure class="figure left .w50">
+    <img src="./cimage/img.php?src=person.jpg&width=400&height=300&crop-to-fit&aro&q=1" alt="katt">
+    <figcaption>
+        <p>En bild på en klasskompis är också intresserad av fotografi. Denna bilden har inställningen q (quality) på 1 för den minsta kvalieten på bilden</p>
+    </figcaption>
+</figure>
+
+<figure class="figure right .w50">
+    <img src="./cimage/img.php?src=person.jpg&width=400&height=600&crop-to-fit&aro&f=negate&area=30,10,5,10" alt="katt">
+    <figcaption>
+        <p>En bild på en klasskompis är också intresserad av fotografi. Denna bilden använder f=negate och area för att invertera bild färgerna och sedan area för att fokusera mer på personen i bilden</p>
+    </figcaption>
+</figure>
+
+<figure class="figure right .w50">
+    <img src="./cimage/img.php?src=person.jpg&width=500&height=300&crop-to-fit&aro&blur&blur&blur&blur&blur&convolve=gblur&convolve=emboss-alt" alt="katt">
+    <figcaption>
+        <p>En bild på en klasskompis är också intresserad av fotografi. Denna bilden använder sig av convolve=emboss-alt som ger en effekt att kanterna popar ut lite mer, som en kant.</p>
     </figcaption>
 </figure>
 

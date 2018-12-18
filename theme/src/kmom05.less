@@ -23,3 +23,75 @@ figure.figure-codepen {
     &:extend(figure.figure);
     #desinax-figure.codepen();
 }
+
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+figure {
+    width: 100%;
+}
+
+figure {
+    figcaption {
+        display: inline !important;
+    }
+
+    &.w25 {
+        img {
+            width: 25%;
+        }
+    }
+
+    &.w33 {
+        img {
+            width: 33%;
+        }
+    }
+
+    &.w40 {
+        img {
+            width: 40%;
+        }
+    }
+
+    &.w67 {
+        img {
+            width: 67%;
+        }
+    }
+
+    &.w100 {
+        img {
+            width: 100%;
+        }
+    }
+
+    &.left {
+        img {
+            float: left;
+            margin-right: 10px;
+        }
+    }
+
+    &.right {
+        img {
+            float: right;
+            margin-left: 10px;
+        }
+    }
+
+    &.center {
+        img {
+            margin: 0 auto;
+            display: block !important;
+        }
+
+        margin-bottom: 30px !important;
+    }
+}
+
+main.region-main {
+    background-color: @dark-700;
+}
