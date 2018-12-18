@@ -2,6 +2,23 @@
 
 # Utvärdering av webbplatsers val av design
 
+## Urval
+
+Web.dev
+Insanelab.com
+DigitalOcean.com
+
+Jag har valt hemsidorna ovan för att de har väldigt olika stilval när den kommer till deras UX/UI design. Vissa är minimalistiskta, andra gillar lite fler poppande färger.
+Detta ger mig lite mer flexibilitet när jag väl ska jämföra och analysera dem. Testa deras skillnader, svaga och starka punkter.
+
+## Metod
+
+Jag använder mig av min tidigare kunskap från en två årig kurs i Design and Visual Arts Higher Level. Jag använder också min personliga kännsla för design från synpunkten av en användare. Jag använder även mindre kunskaper och "regler" som jag har lärt mig genom min tid i webutveckling.
+
+# Resultat
+
+Från min forskning lärde jag mig att bara för att du har flashiga färger och många typsnitt betyder det inte att du har en bra design. En bra design kommer ifrån att balansera din färgpallet på ett sätt som gör det smidigare för användaren att använda din produkt/tjänst. Om du har mer eller mindre färger betyder att du inte har lika många möjligheter, du behöver veta hur du kan använda dina verktyg på ett effektivt sätt och det är det som är svårt med design. Att veta hur man kan använda sina verktyg effektivt.
+
 ## Web.dev
 
 <img src="img/web.dev_01.PNG" style="width: 500px; display: inline-block;">

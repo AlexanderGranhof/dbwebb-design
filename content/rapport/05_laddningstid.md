@@ -4,7 +4,27 @@
 
 I denna rapporten kommer jag analysera, diskutera, jämföra och föreslå förbättringar på tre olika hemsidor; Pinterest, Youtube, Instagram och hur de kan minska deras laddningstid. Jag valde dessa tre hemsidor för att de har alla en sak gemensamt; många bilder och tumnagelbilder (thumbnails). Alla tre hemsidor hanterar deras caching och optimering lite annorlunda och jag kommer diskutera och analysera lite djupare i det i denna rapporten.
 
-## Bilder
+## Urval
+
+Pintrest
+YouTube
+Instagram
+
+Jag har valt dessa hemsidor för de ägs av stora företag som hanterar stora mängder av trafik. Det betyder att de är tvungna att lösa problem som kommer med stora mängder trafik. Alla hemsidor använder också lite annorlunda metoder för att minska trafik mellan användaren och servern och vill titta närmare på dem och analysera deras metoder.
+
+## Metod
+
+För min analys har jag använt Google Chrome. Dev tools i Google Chrome för att mäta hastighet, titta på service workers och se cachet. Google Spreadsheets har jag använt för att dokumentera de olika hastigheterna på alla hemsidor.
+
+## Resultat
+
+Efter min analys och testning av dessa hemsidor som använder olika metoder för att minska deras laddningstid. Det effektivaste sättet är att använda delar från alla hemsidor. Det viktigaste är att komprimera dina bilder med något verktyg. Om det är WebP eller vanlig jpeg komprimering så hjälper det extremt mycket. Det gör att alla bilder tar mycket mindre bandbredd för servern och minskar nerladdningstiden för användaren.
+
+Sekundärt är att cacha alla sina statiska filer med hjälp av service workers. De fungerar som en proxy mellan användaren och servern. När användaren laddar ner en JS eller CSS fil så kommer den cachas på användarens sida. Detta gör så när användaren frågar efter dessa filer igen. Så letar service worker efter den filen i cachet och laddar den filen istället för att ladda ner det från servern.
+
+## Analys
+
+### Bilder
 
 Alla tre hemsidor använder sig av JPG/JPEG när de har komprimerat sina bilder som de använder. Själv är jag förvånad av att ingen av dem använder sig av webp. Lite kort om webp, är en kort text från google om vad webp är för något.
 
@@ -18,7 +38,7 @@ Men efter lite funderande kom jag på en lösning på detta problemet. Och det a
 
 Ett bättre alternativ är om man använder html templates så kan man skicka med vilket filformat som ska laddas för alla bilder. Och ett sista alternativ är att man ändrar bild src attributet om bilden inte visas. Men detta är inte en bra lösning för då kommer användaren alltid ladda bilderna dubbelt.
 
-## Caching
+### Caching
 
 Som tidigare, förvånad att många av dessa sidor inte använder caching. Men det är en hemsida som använder caching väldigt effektivt. De har nyligen haft en makeover för deras hemsida var extremt långsam. Pinterest cachar alla sina css och js filer med hjälp av service workers. Det är en förvånande mängd av data de sparar vid varje request.
 
@@ -28,7 +48,7 @@ Detta fungerar via en service worker som fungerar som en proxy mellan användare
 
 Tyvärr så gör varken YouTube eller Instagram detta som kan spara en massa trafik och bandbredd på deras servrar. Men antagligen varför de har inte gjort det, är för att deras hemsidor är så stora så det är svårt att veta exakt vad som borde bli cachat och vad som borde inte bli det. Men det är något att förbättra på.
 
-## Sammanfattning
+### Sammanfattning
 
 Alla dessa tre hemsidor; YouTube, Pinterest och Instagram kan förbättras med att komprimera deras bilder med webp formatet istället. Detta kommer göra att hemsidan laddas mycket snabbare för användaren och det kommer att spara mycket trafik och bandbredd för servererna.
 
