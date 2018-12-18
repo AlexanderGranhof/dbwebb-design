@@ -7,7 +7,9 @@ I denna rapporten kommer jag analysera, diskutera, jämföra och föreslå förb
 ## Urval
 
 Pintrest
+
 YouTube
+
 Instagram
 
 Jag har valt dessa hemsidor för de ägs av stora företag som hanterar stora mängder av trafik. Det betyder att de är tvungna att lösa problem som kommer med stora mängder trafik. Alla hemsidor använder också lite annorlunda metoder för att minska trafik mellan användaren och servern och vill titta närmare på dem och analysera deras metoder.
