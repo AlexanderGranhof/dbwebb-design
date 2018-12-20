@@ -6,6 +6,16 @@
 
 All of these illustrations are avaliable on https://www.streamlineicons.com/ux/
 
+The design elements that are used in this page are:
+
+1. Texture
+2. Contrast
+3. Type
+4. Illustrations
+5. Spacing
+
+<div class="texture"></div>
+
 <span class="scroller"></span>
 
 <div class="margin800"></div>
