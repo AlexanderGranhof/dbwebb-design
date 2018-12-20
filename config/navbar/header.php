@@ -64,9 +64,14 @@ return [
             "title" => "A blog.",
         ],
         [
-            "text" => "kmom06",
-            "url" => "kmom06",
-            "title" => "kmom06",
+            "text" => "Design Element",
+            "url" => "design_element",
+            "title" => "Design Element",
+        ],
+        [
+            "text" => "Design Principer",
+            "url" => "design_principer",
+            "title" => "Design Principer",
         ]
     ],
 ];
