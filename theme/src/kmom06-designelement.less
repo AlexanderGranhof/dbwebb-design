@@ -10,7 +10,7 @@
 span.large {
     font-size: 42px;
     font-weight: bold;
-    color: #ffc107;
+    color: #4caf50;
     margin: 0 2px;
 }
 
@@ -89,6 +89,7 @@ body.route-kmom06 {
 
     *.region-main {
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+        position: relative;
     }
 }
 
@@ -99,4 +100,20 @@ body.route-kmom06 {
     & img {
         flex: 20.1%;
     }
+}
+
+div.texture {
+    filter: brightness(0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.08;
+    display: block;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-image: url("../img/static.gif");
+    background-position: 0 0;
+    background-size: 240px;
 }
