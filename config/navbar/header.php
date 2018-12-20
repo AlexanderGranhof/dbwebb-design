@@ -62,6 +62,11 @@ return [
             "text" => "Blogg",
             "url" => "blogg",
             "title" => "A blog.",
+        ],
+        [
+            "text" => "kmom06",
+            "url" => "kmom06",
+            "title" => "kmom06",
         ]
     ],
 ];
