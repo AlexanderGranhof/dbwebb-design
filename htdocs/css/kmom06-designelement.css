@@ -5320,10 +5320,10 @@ img.module {
 div.margin800 {
   margin-bottom: 800px;
 }
-body.route-kmom06 {
+body.route-design_element {
   background-color: #8b94a3 !important;
 }
-body.route-kmom06 *.region-main {
+body.route-design_element *.region-main {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
   position: relative;
 }
