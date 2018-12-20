@@ -5320,10 +5320,10 @@ img.module {
 div.margin800 {
   margin-bottom: 800px;
 }
-body.route-kmom06 {
+body.route-design_element {
   background-color: #8b94a3 !important;
 }
-body.route-kmom06 *.region-main {
+body.route-design_element *.region-main {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
   position: relative;
 }
@@ -5348,4 +5348,106 @@ div.texture {
   background-image: url("../img/static.gif");
   background-position: 0 0;
   background-size: 240px;
+}
+body.route-design_element h1,
+body.route-design_element h2,
+body.route-design_element h3,
+body.route-design_element h4,
+body.route-design_element h5,
+body.route-design_element h6 {
+  border: none;
+}
+body.route-design_principer .outer-wrap-footer {
+  display: none !important;
+}
+body.route-design_principer .bgvideo > video {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: grayscale(1) blur(6px);
+}
+body.route-design_principer h1 {
+  border-bottom: 2px solid white;
+}
+body.route-design_principer span.large-good {
+  font-size: 24px;
+  margin: 0 2px;
+  color: green;
+  font-weight: bold;
+}
+body.route-design_principer span.huge-good {
+  font-size: 48px;
+  margin: 0 2px;
+  color: green;
+  font-weight: bold;
+}
+body.route-design_principer span.large-bad {
+  font-size: 24px;
+  margin: 0 2px;
+  color: red;
+  font-weight: bold;
+}
+body.route-design_principer .inner-wrap-main {
+  background-color: transparent;
+  color: white;
+}
+body.route-design_principer .inner-wrap-main p {
+  font-size: 20px;
+}
+body.route-design_principer .inner-wrap-main h1.main {
+  text-align: center;
+  font-size: 76px;
+  letter-spacing: 15px;
+  font-weight: bold;
+}
+body.route-design_principer .image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body.route-design_principer .image-grid img {
+  width: 22%;
+  height: 22%;
+  margin: 5px;
+  flex: 30%;
+}
+body.route-design_principer .inner-wrap-main,
+body.route-design_principer .row,
+body.route-design_principer .region-main,
+body.route-design_principer .article {
+  width: 100%;
+  max-width: unset;
+  margin: 0;
+}
+body.route-design_principer .main-content {
+  margin-top: calc(55vw - 260px);
+  background-color: #37474f;
+  padding: 20px 10vw;
+}
+body.route-design_principer div.image-container {
+  display: flex;
+}
+body.route-design_principer div.image-container.right {
+  justify-content: flex-end;
+}
+body.route-design_principer span.scroller.white {
+  border-color: white;
+}
+body.route-design_principer span.scroller.white::after {
+  border-color: white;
+  background-color: white;
+}
+body.route-design_principer div.split-container {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  column-gap: 40px;
+}
+body.route-design_principer img.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }

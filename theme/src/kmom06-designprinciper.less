@@ -1,1 +1,129 @@
 @import "kmom06-designelement.less";
+
+body.route-design_element {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        border: none;
+    }
+}
+
+body.route-design_principer {
+    .outer-wrap-footer {
+        display: none !important;
+    }
+
+    .bgvideo > video {
+        z-index: -1;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        filter: grayscale(1) blur(6px);
+    }
+
+    h1 {
+        border-bottom: 2px solid white;
+    }
+
+    span.large-good {
+        font-size: 24px;
+        margin: 0 2px;
+        color: green;
+        font-weight: bold;
+    }
+
+    span.huge-good {
+        font-size: 48px;
+        margin: 0 2px;
+        color: green;
+        font-weight: bold;
+    }
+
+    span.large-bad {
+        font-size: 24px;
+        margin: 0 2px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .inner-wrap-main {
+        background-color: transparent;
+        color: white;
+
+        p {
+            font-size: 20px;
+        }
+
+        h1.main {
+            text-align: center;
+            font-size: 76px;
+            letter-spacing: 15px;
+            font-weight: bold;
+        }
+    }
+
+    .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        & img {
+            width: 22%;
+            height: 22%;
+            margin: 5px;
+            flex: 30%;
+        }
+    }
+
+    .inner-wrap-main,
+    .row,
+    .region-main,
+    .article {
+        width: 100%;
+        max-width: unset;
+        margin: 0;
+    }
+
+    .main-content {
+        margin-top: calc(55vw - 260px);
+        background-color: #37474f;
+        padding: 20px 10vw;
+    }
+
+    div.image-container {
+        display: flex;
+
+        &.right {
+            justify-content: flex-end;
+        }
+    }
+
+    span.scroller.white {
+        border-color: white;
+
+        &::after {
+            border-color: white;
+            background-color: white;
+        }
+    }
+
+    div.split-container {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        column-gap: 40px;
+    }
+
+    img {
+        &.circle {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}

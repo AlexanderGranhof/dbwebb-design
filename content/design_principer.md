@@ -1,77 +1,40 @@
 <script src="./js/jquery.js"></script>
 <script src="./js/kmom06.js"></script>
-<link rel="stylesheet" href="./css/fullwidth.css">
 
-### Today we are displaying some <span class="large">FREE</span> svg illustrations
-
-All of these illustrations are avaliable on https://www.streamlineicons.com/ux/
-
-The design elements that are used in this page are:
-
-1. Texture
-2. Contrast
-3. Type
-4. Illustrations
-5. Spacing
-
-<div class="texture"></div>
-
-<span class="scroller"></span>
-
-<div class="margin800"></div>
-
-# Here are a couple of examples
-
-<div class="flex-container">
-    <img class="module" src="./img/svg/amusement-park.svg">
-    <img class="module" src="./img/svg/android-phone.svg">
-    <img class="module" src="./img/svg/arab-male-travel.svg">
-    <img class="module" src="./img/svg/chip-head.svg">
-    <img class="module" src="./img/svg/color-palette.svg">
-    <img class="module" src="./img/svg/customer-service-man.svg">
-    <img class="module" src="./img/svg/customer-service-woman.svg">
-    <img class="module" src="./img/svg/delivery-truck.svg">
+<div class="bgvideo">
+    <video muted autoplay loop>
+        <source src="./video/cat.mp4" type="video/mp4">
+    </video>
 </div>
 
-## Since they are an svg, you can make them <span class="large">HUGE</span> if you want to
+<!-- 1. Movement
+2. Alignment
+3. Emphasis
+4. Contrast
+5. Line -->
 
-<img class="module" style="width: 100%" src="./img/svg/dj-booth.svg">
+<span class="scroller white"></span>
 
-# Or if you want them really <span class="small">small</span>
-
-<img class="module" style="width: 50px" src="./img/svg/amusement-park.svg">
-<img class="module" style="width: 50px" src="./img/svg/android-phone.svg">
-<img class="module" style="width: 50px" src="./img/svg/arab-male-travel.svg">
-<img class="module" style="width: 50px" src="./img/svg/chip-head.svg">
-<img class="module" style="width: 50px" src="./img/svg/color-palette.svg">
-<img class="module" style="width: 50px" src="./img/svg/customer-service-man.svg">
-<img class="module" style="width: 50px" src="./img/svg/customer-service-woman.svg">
-<img class="module" style="width: 50px" src="./img/svg/delivery-truck.svg">
-<img class="module" style="width: 50px" src="./img/svg/dj-booth.svg">
-<img class="module" style="width: 50px" src="./img/svg/doctor-hospital.svg">
-<img class="module" style="width: 50px" src="./img/svg/ecology-globe.svg">
-<img class="module" style="width: 50px" src="./img/svg/farm-barn.svg">
-<img class="module" style="width: 50px" src="./img/svg/golfer-male.svg">
-<img class="module" style="width: 50px" src="./img/svg/graduate-female.svg">
-<img class="module" style="width: 50px" src="./img/svg/gym.svg">
-<img class="module" style="width: 50px" src="./img/svg/hacker.svg">
-<img class="module" style="width: 50px" src="./img/svg/hippie-male.svg">
-<img class="module" style="width: 50px" src="./img/svg/hooligans-gang.svg">
-<img class="module" style="width: 50px" src="./img/svg/hospital.svg">
-<img class="module" style="width: 50px" src="./img/svg/ipod.svg">
-<img class="module" style="width: 50px" src="./img/svg/lab-scientist.svg">
-<img class="module" style="width: 50px" src="./img/svg/lucky-cat-money.svg">
-<img class="module" style="width: 50px" src="./img/svg/monitor-cash-credit-card.svg">
-<img class="module" style="width: 50px" src="./img/svg/monitor-loading-progress.svg">
-<img class="module" style="width: 50px" src="./img/svg/monitor-window.svg">
-<img class="module" style="width: 50px" src="./img/svg/netherlands-windmill.svg">
-<img class="module" style="width: 50px" src="./img/svg/notre-dame.svg">
-<img class="module" style="width: 50px" src="./img/svg/one-world-trade-center.svg">
-<img class="module" style="width: 50px" src="./img/svg/phone-new-message.svg">
-<img class="module" style="width: 50px" src="./img/svg/customer-service-man.svg">
-<img class="module" style="width: 50px" src="./img/svg/photographer-male.svg">
-<img class="module" style="width: 50px" src="./img/svg/polaroid.svg">
-<img class="module" style="width: 50px" src="./img/svg/postman-receive-letter.svg">
-<img class="module" style="width: 50px" src="./img/svg/color-palette.svg">
-<img class="module" style="width: 50px" src="./img/svg/programmer-male.svg">
-<img class="module" style="width: 50px" src="./img/svg/public-speaker.svg">
+<h1 class="main">CATS</h1>
+<div class="main-content">
+    <h1>Why are cats the better pet?</h1>
+    <div class="split-container">
+        <p>There can be many different reasons why a cat is a better fit pet for most people. The most common argument is that <span class="large-good">cats are cheaper</span> to take care of than a dog. <span class="large-bad">Dogs need constant attention</span>. And if youre in a family where both parents are working full time, the dog will be lonely for most of the day. Cats require barely any attention, they are very capable by themselves and dont need much care. Aslong they have access to water, food and a bathroom they can basically handle themselves.</p>
+        <div class="image-container right">
+            <img class="circle" src="./img/cat.jpg">
+        </div>
+    </div>
+    <h1>Cats are <span class="huge-good">prettier</span></h1>
+    <p>Cats are simple prettier, no one can deny that. Below is a collage of different pictures of cats. I put it into a neat little grid so you can easily admire each and every picture of these pretty cats. Now these cats are actually adults, so not the absolutely cutests cats possible but still given that theyre adults they are still cute little cuddly animals that you can snuggle with.</p>
+    <div class="image-grid">
+        <img class="module" src="./img/cat-1.jpg">
+        <img class="module" src="./img/cat-2.jpg">
+        <img class="module" src="./img/cat-3.jpg">
+        <img class="module" src="./img/cat-4.jpg">
+        <img class="module" src="./img/cat-5.jpg">
+        <img class="module" src="./img/cat-6.jpg">
+        <img class="module" src="./img/cat-7.jpg">
+        <img class="module" src="./img/cat-8.jpg">
+        <img class="module" src="./img/cat-9.jpg">
+    </div>
+</div>
