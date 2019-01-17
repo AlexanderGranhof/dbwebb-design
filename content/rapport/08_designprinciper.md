@@ -26,7 +26,7 @@ Videon i bakgrunden är faktiskt i färg, men jag har använt css filters för a
 
 I detta exemplet har jag delat upp innehållet i delar med hjälp av linjer. Vid varje titel har jag lagt till en vit underlinje. Detta ger en visuel effekt av indelning. På så sätt kan användaren snabbt gå igenom sidan och hitta just den biten de letar efter. Samt ger linjer en effekt där användarens fokus dras mot linjerna och läser det först innan något annat. Med hjälp av linjerna kan du guida användaren mot det du vill att de ska läsa först som titlar eller något annat liknande.
 
-Hur känns det att tänka i termer av designelement och designprinciper?
+<!-- Hur känns det att tänka i termer av designelement och designprinciper?
 Allt detta design principer och designelement är granska tungt att tänka på där man designar sin sida, det är väldigt mycket att  tänka på när man skriver sitt GUI. Men förhoppningsvis om man tänker på det ofta nog så kommer det naturligt med tiden. Programming (I javascript iaf) kommer väldigt naturligt för mig när man har arbetat med det så länge, hoppas det blir samma sak för dessa designelement och designprinciper.
 
 Finns det något speciellt du vill lyfta fram från uppgiften “Utvärdera designprinciper som webbplatser använder sig av”. Vad tar du med dig från den uppgiften?
@@ -41,4 +41,4 @@ The final touch kan vara massa små saker som man inte tänker på, en liten ann
 Vilken är din TIL för detta kmom?
 Lärde mig att du kan använda repeterande gifs som bakgrunder, samt skapa olika texturer med hjälp av css background. Lärde mig att det finns plugins i jQuery där du kan snabbt få igång en komplicerad effekt eller liknande.
 
-Länkar:
+Länkar: -->
