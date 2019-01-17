@@ -16,8 +16,6 @@
     // To support WordPress submenus
     var submenuswp = document.getElementsByClassName("sub-menu");
 
-
-
     /**
      * Set the size of the max menu.
      */
@@ -26,12 +24,11 @@
             return;
         }
 
-        menuMax.style.width  = window.innerWidth + "px";
+        menuMax.style.width = window.innerWidth + "px";
         menuMax.style.height = window.innerHeight + "px";
     };
 
     setMaxMenuSize();
-
 
     /**
      * Show submenu where ever a li item holds a submenu. Used as callback
@@ -52,8 +49,6 @@
         //event.preventDefault();
         event.stopPropagation();
     };
-
-
 
     /**
      * Add eventlisteners for each li holding a submenu
@@ -77,8 +72,6 @@
         //console.log("found submenuwp");
     });
 
-
-
     /**
      * Show the menu when clicking on the closed (mobile) menu button.
      */
@@ -98,8 +91,6 @@
         event.stopPropagation();
     });
 
-
-
     /**
      * Prevent touch event scrolling & closing maxmenu on iOS
      */
@@ -108,8 +99,6 @@
         event.stopPropagation();
     });
 */
-
-
 
     /**
      *
